@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontal center for button */
+  align-items: center;     /* Vertical center for button */
+  height: 100vh;           /* Full screen height */
+  position: relative;      /* Provides a reference for the H1 */
+}
+
+h1 {
+  position: absolute;      /* Pulls H1 out of the center flow */
+  top: 0;                  /* Pins it to the very top */
+  width: 100%;             /* Ensures it spans the full width */
+  text-align: center;      /* Centers the text within that width */
+  margin: 0;
+  padding: 20px 0;         /* Adds some breathing room at the top */
+}
+
+/* Your existing button style */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #780392;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
